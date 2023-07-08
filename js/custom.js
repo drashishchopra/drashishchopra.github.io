@@ -58,7 +58,8 @@ $(document).ready(function(){
             },
             768:{
                 items:3,
-                nav:false
+                nav:false,
+                autoplay: false,
             },
             1200:{
                 items:4,
