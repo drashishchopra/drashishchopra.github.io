@@ -46,17 +46,23 @@ $(document).ready(function(){
         loop: true,
         autoplay: true,
         slideTransition: 'linear',
-        autoplayTimeout: 1500,
-        autoplaySpeed: 3000,
+        autoplayTimeout: 3000,
+        autoplaySpeed: 6000,
         autoplayHoverPause: true,
         items:4,
         responsiveClass:true,
         responsive:{
             0:{
                 items:1,
-                nav:true
+                nav:true,
+                autoplay: false,
             },
             768:{
+                items:2,
+                nav:false,
+                autoplay: false,
+            },
+            993:{
                 items:3,
                 nav:false,
                 autoplay: false,

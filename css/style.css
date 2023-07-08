@@ -86,7 +86,7 @@ body {
   text-transform: capitalize;
   font-weight: 700;
   position: relative;
-  letter-spacing: 0.6px;
+  letter-spacing: 0.3px;
   background: #3A5D8C;
   background: -webkit-gradient(linear, left top, right top, from(#3A5D8C), to(#56a5e8));
   background: linear-gradient(to right, #3A5D8C 0%, #56a5e8 100%);
@@ -128,7 +128,7 @@ p {
   font-size: 14px;
   color: #3a5d8c;
   font-weight: 400;
-  letter-spacing: 0.6px;
+  letter-spacing: 0.3px;
   margin-bottom: 0px;
   line-height: 1.75;
 }
@@ -196,7 +196,7 @@ p.heading-text-sm.wd-40 {
   border-radius: 4px;
   color: #ffffff;
   font-weight: 600;
-  letter-spacing: 0.6px;
+  letter-spacing: 0.3px;
   text-decoration: none;
   display: inline-block;
   padding: 10px 25px 13px;
@@ -246,15 +246,8 @@ header nav.navbar.navbar-expand-lg .navbar-collapse {
 }
 
 header nav.navbar.navbar-expand-lg.navbar-light .navbar-nav .nav-item {
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-@media screen and (max-width: 1199px) {
-  header nav.navbar.navbar-expand-lg.navbar-light .navbar-nav .nav-item {
-    padding-left: 10px;
-    padding-right: 0px;
-  }
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 @media screen and (max-width: 991.5px) {
@@ -288,7 +281,14 @@ header nav.navbar.navbar-expand-lg.navbar-light .navbar-nav .nav-item .nav-link 
   color: #3a5d8c;
   font-size: 14px;
   font-weight: 700;
-  letter-spacing: 0.6px;
+  letter-spacing: 0.3px;
+}
+
+@media screen and (max-width: 1199.5px) {
+  header nav.navbar.navbar-expand-lg.navbar-light .navbar-nav .nav-item .nav-link {
+    padding-left: 3px;
+    padding-right: 3px;
+  }
 }
 
 @media screen and (max-width: 991.5px) {
@@ -318,7 +318,7 @@ header nav.navbar.navbar-expand-lg.navbar-light .close-icon {
   border-radius: 4px;
   color: #ffffff;
   font-weight: 700;
-  letter-spacing: 0.6px;
+  letter-spacing: 0.3px;
   text-decoration: none;
   padding: 8px 16px 10px;
   line-height: 0px;
@@ -346,7 +346,7 @@ header nav.navbar .navbar-brand {
   text-transform: capitalize;
   font-weight: 700;
   position: relative;
-  letter-spacing: 0.6px;
+  letter-spacing: 0.3px;
   background: #3A5D8C;
   background: -webkit-gradient(linear, left top, right top, from(#3A5D8C), to(#56a5e8));
   background: linear-gradient(to right, #3A5D8C 0%, #56a5e8 100%);
@@ -479,7 +479,7 @@ header.sticky nav.navbar {
   font-size: 16px;
   color: #3a5d8c;
   font-weight: 600;
-  letter-spacing: 0.6px;
+  letter-spacing: 0.3px;
   width: 85%;
   margin-bottom: 50px;
 }
@@ -504,7 +504,7 @@ header.sticky nav.navbar {
   border-radius: 4px;
   color: #ffffff;
   font-weight: 700;
-  letter-spacing: 0.6px;
+  letter-spacing: 0.3px;
   text-decoration: none;
   display: inline-block;
   padding: 12px 30px 15px;
@@ -996,7 +996,7 @@ header.sticky nav.navbar {
 
 .book-appointment .right-side ul.items li {
   padding: 50px 15px;
-  background: -webkit-linear-gradient(90deg, #3a5d8c, #56a5e8);
+  background: #ffffff;
   border-radius: 4px;
   -webkit-box-shadow: 0px 6px 13px 0px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 6px 13px 0px rgba(0, 0, 0, 0.2);
@@ -1017,7 +1017,7 @@ header.sticky nav.navbar {
 }
 
 .book-appointment .right-side ul.items li h4 {
-  color: #ffffff;
+  color: #3a5d8c;
   font-weight: 700;
   letter-spacing: 1px;
   margin-bottom: 1.5rem;
@@ -1030,11 +1030,11 @@ header.sticky nav.navbar {
 }
 
 .book-appointment .right-side ul.items li p {
-  color: #ffffff;
+  color: #000000;
   font-size: 1rem;
   font-weight: 500;
   margin-bottom: 0px;
-  letter-spacing: 0.6px;
+  letter-spacing: 0.2px;
   text-align: center;
 }
 
@@ -1246,7 +1246,7 @@ header.sticky nav.navbar {
 
 .our-team .item .inner-content .content h5 {
   font-size: 18px;
-  letter-spacing: 0.6px;
+  letter-spacing: 0.3px;
   font-weight: 700;
   color: #3a5d8c;
   text-decoration: none;
@@ -1394,7 +1394,7 @@ footer .footer-logo {
   text-transform: capitalize;
   font-weight: 700;
   position: relative;
-  letter-spacing: 0.6px;
+  letter-spacing: 0.3px;
   background: #3A5D8C;
   background: -webkit-gradient(linear, left top, right top, from(#3A5D8C), to(#56a5e8));
   background: linear-gradient(to right, #3A5D8C 0%, #56a5e8 100%);
@@ -1409,7 +1409,7 @@ footer .first h2 {
   margin-bottom: 15px;
   text-transform: uppercase;
   font-weight: 700;
-  letter-spacing: 0.6px;
+  letter-spacing: 0.3px;
 }
 
 footer .first p {
@@ -1423,7 +1423,7 @@ footer .first a {
   font-size: 12px;
   margin-bottom: 0px;
   text-decoration: none;
-  letter-spacing: 0.6px;
+  letter-spacing: 0.3px;
 }
 
 footer .first a:hover {
@@ -1445,7 +1445,7 @@ footer h3.footer-heading {
   text-transform: capitalize;
   font-weight: 700;
   position: relative;
-  letter-spacing: 0.6px;
+  letter-spacing: 0.3px;
   background: #3A5D8C;
   background: -webkit-gradient(linear, left top, right top, from(#3A5D8C), to(#56a5e8));
   background: linear-gradient(to right, #3A5D8C 0%, #56a5e8 100%);
